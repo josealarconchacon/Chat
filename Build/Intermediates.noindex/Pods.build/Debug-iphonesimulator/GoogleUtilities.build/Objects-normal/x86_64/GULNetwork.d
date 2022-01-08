@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/GoogleUtilities/GoogleUtilities/Network/GULNetwork.m \
+  /Users/josealarconchacon/Dropbox/Chat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/GoogleUtilities.build/module.modulemap \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetwork.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/kcdata.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/uuid.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/netinet6.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/machine.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/device.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/mach_debug.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/mach_machine.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/mach.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/bank.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/darwin_posix_sys_types.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/netinet.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/net.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/darwin_cdefs.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkConstants.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/GoogleUtilities/GoogleUtilities/Logger/Private/GULLogger.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GULLoggerLevel.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkLoggerProtocol.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkMessageCode.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkURLSession.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/Private/GULNSDataInternal.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/Public/GULNSData+zlib.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULMutableDictionary.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/GoogleUtilities/GoogleUtilities/Reachability/Private/GULReachabilityChecker.h

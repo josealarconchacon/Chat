@@ -1,0 +1,39 @@
+dependencies: \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/envoy/config/filter/network/http_connection_manager/v2/http_connection_manager.upb.c \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/include/grpc/module.modulemap \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/kcdata.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/uuid.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/netinet6.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/machine.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/device.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/mach_debug.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/mach_machine.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/mach.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/bank.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/darwin_posix_sys_types.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/netinet.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/net.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/usr/include/darwin_cdefs.modulemap \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/third_party/upb/upb/msg.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/third_party/upb/upb/upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/third_party/upb/upb/port_def.inc \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/third_party/upb/upb/port_undef.inc \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/envoy/config/filter/network/http_connection_manager/v2/http_connection_manager.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/third_party/upb/upb/generated_util.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/third_party/upb/upb/decode.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/third_party/upb/upb/encode.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/envoy/api/v2/core/config_source.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/envoy/api/v2/core/protocol.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/envoy/api/v2/route.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/envoy/api/v2/scoped_route.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/envoy/config/filter/accesslog/v2/accesslog.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/envoy/type/percent.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/envoy/type/tracing/v2/custom_tag.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/google/protobuf/any.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/google/protobuf/duration.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/google/protobuf/struct.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/google/protobuf/wrappers.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/envoy/annotations/deprecation.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/udpa/annotations/migrate.upb.h \
+  /Users/josealarconchacon/Dropbox/Chat/Pods/gRPC-Core/src/core/ext/upb-generated/validate/validate.upb.h
