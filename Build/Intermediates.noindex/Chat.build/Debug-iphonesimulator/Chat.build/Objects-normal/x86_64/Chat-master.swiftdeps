@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
 options: "cdc105774638c89ac05b62e4b19cc62a4dec2b9fad2de6dc24c214ed5e785e73"
-build_start_time: [1641531185, 914308071]
-build_end_time: [1641531186, 590166091]
+build_start_time: [1641618760, 815096855]
+build_end_time: [1641618764, 700260162]
 inputs:
   "/Users/josealarconchacon/Dropbox/Chat/Chat/Controller/CreateAccountViewController.swift": [1641530512, 528067588]
   "/Users/josealarconchacon/Dropbox/Chat/Chat/Controller/LoginViewController.swift": [1641531184, 885476827]
