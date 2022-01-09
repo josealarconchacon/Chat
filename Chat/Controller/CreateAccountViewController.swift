@@ -25,7 +25,7 @@ class CreateAccountViewController: UIViewController {
                     print(error.localizedDescription)
                 } else {
                     // Navegate to the message viewController page
-                    self.performSegue(withIdentifier: "CreateAccountToChat", sender: self)
+                    self.performSegue(withIdentifier: Constants.registerSegue, sender: self)
                 }
             }
         }

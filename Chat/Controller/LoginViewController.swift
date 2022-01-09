@@ -25,7 +25,7 @@ class LoginViewController: UIViewController {
                     print("Error: \(error.localizedDescription)")
                 } else {
                     // Navegate to the Message ViewController
-                    self.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    self.performSegue(withIdentifier: Constants.loginSegue, sender: self)
                 }
             }
         }

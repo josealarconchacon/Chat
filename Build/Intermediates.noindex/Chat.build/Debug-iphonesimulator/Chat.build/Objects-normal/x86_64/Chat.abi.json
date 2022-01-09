@@ -12,6 +12,13 @@
     },
     {
       "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Chat"
+    },
+    {
+      "kind": "Import",
       "name": "SwiftOnoneSupport",
       "printedName": "SwiftOnoneSupport",
       "declKind": "Import",
@@ -1150,6 +1157,13 @@
     },
     {
       "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Chat"
+    },
+    {
+      "kind": "Import",
       "name": "SwiftOnoneSupport",
       "printedName": "SwiftOnoneSupport",
       "declKind": "Import",
@@ -1630,6 +1644,185 @@
       "kind": "Import",
       "name": "Firebase",
       "printedName": "Firebase",
+      "declKind": "Import",
+      "moduleName": "Chat"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Chat"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "Chat"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Chat"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "Chat"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Constants",
+      "printedName": "Constants",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "registerSegue",
+          "printedName": "registerSegue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4Chat9ConstantsV13registerSegueSSvpZ",
+          "mangledName": "$s4Chat9ConstantsV13registerSegueSSvpZ",
+          "moduleName": "Chat",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4Chat9ConstantsV13registerSegueSSvgZ",
+              "mangledName": "$s4Chat9ConstantsV13registerSegueSSvgZ",
+              "moduleName": "Chat",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "loginSegue",
+          "printedName": "loginSegue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4Chat9ConstantsV10loginSegueSSvpZ",
+          "mangledName": "$s4Chat9ConstantsV10loginSegueSSvpZ",
+          "moduleName": "Chat",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4Chat9ConstantsV10loginSegueSSvgZ",
+              "mangledName": "$s4Chat9ConstantsV10loginSegueSSvgZ",
+              "moduleName": "Chat",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Constants",
+              "printedName": "Chat.Constants",
+              "usr": "s:4Chat9ConstantsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:4Chat9ConstantsVACycfc",
+          "mangledName": "$s4Chat9ConstantsVACycfc",
+          "moduleName": "Chat",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:4Chat9ConstantsV",
+      "mangledName": "$s4Chat9ConstantsV",
+      "moduleName": "Chat",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Firebase",
+      "printedName": "Firebase",
+      "declKind": "Import",
+      "moduleName": "Chat"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
       "declKind": "Import",
       "moduleName": "Chat"
     },

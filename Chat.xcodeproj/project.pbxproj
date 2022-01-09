@@ -22,6 +22,7 @@
 		678755312787683100D3AF6B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678755302787683100D3AF6B /* LoginViewController.swift */; };
 		678755332787689800D3AF6B /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678755322787689800D3AF6B /* MessageViewController.swift */; };
 		6787553F2787F5C900D3AF6B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6787553E2787F5C900D3AF6B /* GoogleService-Info.plist */; };
+		67AC4F0A278A9BB900AC753F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AC4F09278A9BB900AC753F /* Constants.swift */; };
 		D2B3D39E547FFFEF4372462D /* Pods_ChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3355E483C8BE881B59919315 /* Pods_ChatTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		678755302787683100D3AF6B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		678755322787689800D3AF6B /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		6787553E2787F5C900D3AF6B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		67AC4F09278A9BB900AC753F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6CDAC176DC23C82DEC02FD4E /* Pods_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0539E0B317ACDD0964FFEF /* Pods-ChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatTests.release.xcconfig"; path = "Target Support Files/Pods-ChatTests/Pods-ChatTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -205,6 +207,7 @@
 		678755342787CD0A00D3AF6B /* Extention */ = {
 			isa = PBXGroup;
 			children = (
+				67AC4F09278A9BB900AC753F /* Constants.swift */,
 			);
 			name = Extention;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 				678754FF2787602100D3AF6B /* WelcomeViewController.swift in Sources */,
 				678754FB2787602100D3AF6B /* AppDelegate.swift in Sources */,
 				678755312787683100D3AF6B /* LoginViewController.swift in Sources */,
+				67AC4F0A278A9BB900AC753F /* Constants.swift in Sources */,
 				678755332787689800D3AF6B /* MessageViewController.swift in Sources */,
 				678754FD2787602100D3AF6B /* SceneDelegate.swift in Sources */,
 			);

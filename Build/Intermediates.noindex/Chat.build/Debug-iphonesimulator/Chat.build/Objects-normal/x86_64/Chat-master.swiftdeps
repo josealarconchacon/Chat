@@ -1,11 +1,12 @@
 version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
 options: "cdc105774638c89ac05b62e4b19cc62a4dec2b9fad2de6dc24c214ed5e785e73"
-build_start_time: [1641618760, 815096855]
-build_end_time: [1641618764, 700260162]
+build_start_time: [1641702798, 902766942]
+build_end_time: [1641702799, 938652992]
 inputs:
-  "/Users/josealarconchacon/Dropbox/Chat/Chat/Controller/CreateAccountViewController.swift": [1641530512, 528067588]
-  "/Users/josealarconchacon/Dropbox/Chat/Chat/Controller/LoginViewController.swift": [1641531184, 885476827]
-  "/Users/josealarconchacon/Dropbox/Chat/Chat/Controller/MessageViewController.swift": [1641493383, 74880599]
+  "/Users/josealarconchacon/Dropbox/Chat/Chat/Constants.swift": [1641702792, 299549102]
+  "/Users/josealarconchacon/Dropbox/Chat/Chat/Controller/CreateAccountViewController.swift": [1641702792, 285799503]
+  "/Users/josealarconchacon/Dropbox/Chat/Chat/Controller/LoginViewController.swift": [1641702792, 270841836]
+  "/Users/josealarconchacon/Dropbox/Chat/Chat/Controller/MessageViewController.swift": [1641702712, 512182235]
   "/Users/josealarconchacon/Dropbox/Chat/Chat/Controller/WelcomeViewController.swift": [1641518943, 511388301]
   "/Users/josealarconchacon/Dropbox/Chat/Chat/Support File/AppDelegate.swift": [1641528519, 842717170]
   "/Users/josealarconchacon/Dropbox/Chat/Chat/Support File/SceneDelegate.swift": [1641490593, 197698354]
