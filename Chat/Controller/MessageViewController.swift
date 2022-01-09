@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class MessageViewController: UIViewController {
 
@@ -14,10 +15,18 @@ class MessageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Chat App"
+        navigationItem.hidesBackButton = true
     }
     
     @IBAction func sendMessagePressed(_ sender: UIButton) {
     }
     @IBAction func logOutButtonPressed(_ sender: UIBarButtonItem) {
+        do {
+            try Auth.auth().signOut()
+            navigationController?.popToRootViewController(animated: true)
+        } catch let sigOutError as NSError {
+            print("Error Signing Out: %@", sigOutError)
+        }
     }
 }
