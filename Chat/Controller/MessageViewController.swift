@@ -18,4 +18,6 @@ class MessageViewController: UIViewController {
     
     @IBAction func sendMessagePressed(_ sender: UIButton) {
     }
+    @IBAction func logOutButtonPressed(_ sender: UIBarButtonItem) {
+    }
 }
