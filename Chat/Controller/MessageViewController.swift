@@ -16,11 +16,7 @@ class MessageViewController: UIViewController {
     // db reference
     let dataBase = Firestore.firestore()
     
-    var messages: [Message] = [
-        Message(sender: "test@.com", body: "Hey!"),
-        Message(sender: "a@.com", body: "What up?"),
-        Message(sender: "test@.com", body: "How are you?")
-    ]
+    var messages: [Message] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,10 +24,38 @@ class MessageViewController: UIViewController {
         title = Constants.appName
         navigationItem.hidesBackButton = true
         registerNibFile()
+        loadData()
     }
     
+    // register the nib file
     func registerNibFile() {
         tableView.register(UINib(nibName: Constants.cellNibName, bundle: nil), forCellReuseIdentifier: Constants.cellIdentifier)
+    }
+    
+    // load data from database
+    func loadData() {
+        dataBase.collection(Constants.FireStore.collectionName).addSnapshotListener { querySnapshot, error in
+            self.messages = []
+            if let error = error {
+                print("There were an issue retrieving data to firestore \(error.localizedDescription)")
+            } else {
+                if let snapshotDocument = querySnapshot?.documents {
+                    for document in snapshotDocument {
+                        let data = document.data()
+                        if let sender = data[Constants.FireStore.senderField] as? String,
+                           let messageBody = data[Constants.FireStore.bodyField] as? String {
+                            // create a new message object, and append it to the message array
+                            let newMessage = Message(sender: sender, body: messageBody)
+                            self.messages.append(newMessage)
+                            // update tableView
+                            DispatchQueue.main.async {
+                                self.tableView.reloadData()
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
     
     @IBAction func sendMessagePressed(_ sender: UIButton) {
