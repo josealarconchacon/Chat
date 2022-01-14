@@ -13,6 +13,9 @@ class MessageViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextfield: UITextField!
     
+    // db reference
+    let dataBase = Firestore.firestore()
+    
     var messages: [Message] = [
         Message(sender: "test@.com", body: "Hey!"),
         Message(sender: "a@.com", body: "What up?"),
@@ -32,6 +35,18 @@ class MessageViewController: UIViewController {
     }
     
     @IBAction func sendMessagePressed(_ sender: UIButton) {
+        if let messageBody = messageTextfield.text, // // store the message body
+            let messageSender = Auth.auth().currentUser?.email { // // get hold of the sender, current user
+            dataBase.collection(Constants.FireStore.collectionName).addDocument(data: [
+                Constants.FireStore.senderField: messageSender,
+                Constants.FireStore.bodyField: messageBody]) { error in
+                    if let error = error {
+                        print("There were an issue saving data to firestore \(error.localizedDescription)")
+                    } else {
+                        print("Data was saved successfully")
+                    }
+                }
+         }
     }
     
     @IBAction func logOutButtonPressed(_ sender: UIBarButtonItem) {
