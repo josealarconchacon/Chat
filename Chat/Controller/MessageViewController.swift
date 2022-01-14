@@ -34,7 +34,7 @@ class MessageViewController: UIViewController {
     
     // load data from database
     func loadData() {
-        dataBase.collection(Constants.FireStore.collectionName).addSnapshotListener { querySnapshot, error in
+        dataBase.collection(Constants.FireStore.collectionName).order(by: Constants.FireStore.dateField).addSnapshotListener { querySnapshot, error in
             self.messages = []
             if let error = error {
                 print("There were an issue retrieving data to firestore \(error.localizedDescription)")
@@ -63,6 +63,8 @@ class MessageViewController: UIViewController {
             let messageSender = Auth.auth().currentUser?.email { // // get hold of the sender, current user
             dataBase.collection(Constants.FireStore.collectionName).addDocument(data: [
                 Constants.FireStore.senderField: messageSender,
+                // get hold of current time: Date().timeIntervalSince1970
+                Constants.FireStore.dateField: Date().timeIntervalSince1970,
                 Constants.FireStore.bodyField: messageBody]) { error in
                     if let error = error {
                         print("There were an issue saving data to firestore \(error.localizedDescription)")
