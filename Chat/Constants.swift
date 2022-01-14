@@ -21,7 +21,7 @@ struct Constants {
         static let lighBlue = "BrandLightBlue"
     }
     
-    struct FStore {
+    struct FireStore {
         static let collectionName = "messages"
         static let senderField = "sender"
         static let bodyField = "body"
