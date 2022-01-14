@@ -21,7 +21,7 @@ extension WelcomeViewController {
     func animateWelcomeText() {
         titleLabel.text = ""
         var charaterIndex = 0.0
-        let titleText = "💬 Welcome to Chat"
+        let titleText = Constants.appName
         for letter in titleText {
             Timer.scheduledTimer(withTimeInterval: 0.1 * charaterIndex, repeats: false) { timer in
                 self.titleLabel.text?.append(letter)
