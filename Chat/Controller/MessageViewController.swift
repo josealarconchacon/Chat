@@ -23,6 +23,7 @@ class MessageViewController: UIViewController {
         tableView.dataSource = self
         title = Constants.appName
         navigationItem.hidesBackButton = true
+        tableView.tableFooterView = UIView()
         registerNibFile()
         loadData()
     }
@@ -91,8 +92,24 @@ extension MessageViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let message = messages[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: Constants.cellIdentifier, for: indexPath) as! MessageCell
-        cell.label.text = messages[indexPath.row].body
+        cell.label.text = message.body
+        
+        // message fom the current user
+        if message.sender == Auth.auth().currentUser?.email {
+            cell.leftImageView.isHidden = true
+            cell.rightImage.isHidden = false
+            cell.messageView.backgroundColor = UIColor(named: Constants.BrandColors.lightPurple)
+            cell.label.textColor = UIColor(named: Constants.BrandColors.purple)
+        } else {
+            // message from the other sender
+            cell.leftImageView.isHidden = false
+            cell.rightImage.isHidden = true
+            cell.messageView.backgroundColor = UIColor(named:  Constants.BrandColors.purple)
+            cell.label.textColor = UIColor(named: Constants.BrandColors.lightPurple)
+        }
         return cell
     }
 }
+
