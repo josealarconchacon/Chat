@@ -80,15 +80,6 @@ class MessageViewController: UIViewController {
                 }
          }
     }
-    
-    @IBAction func logOutButtonPressed(_ sender: UIBarButtonItem) {
-        do {
-            try Auth.auth().signOut()
-            navigationController?.popToRootViewController(animated: true)
-        } catch let sigOutError as NSError {
-            print("Error Signing Out: %@", sigOutError)
-        }
-    }
 }
 
 extension MessageViewController: UITableViewDataSource {
