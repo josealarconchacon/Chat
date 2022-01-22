@@ -10,10 +10,13 @@ import UIKit
 class WelcomeViewController: UIViewController {
 
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var createAccountButton: UIButton!
+    @IBOutlet weak var loginButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         animateWelcomeText()
+        buttonUI()
     }
 }
 
@@ -28,6 +31,11 @@ extension WelcomeViewController {
             }
             charaterIndex += 1
         }
+    }
+    
+    func buttonUI() {
+        createAccountButton.layer.cornerRadius = 25.0
+        loginButton.layer.cornerRadius = 25.0
     }
 }
 
