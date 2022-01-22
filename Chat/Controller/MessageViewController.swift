@@ -20,10 +20,10 @@ class MessageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.tableFooterView = UIView()
         tableView.dataSource = self
         title = Constants.appName
         navigationItem.hidesBackButton = true
-        tableView.tableFooterView = UIView()
         registerNibFile()
         loadData()
     }
@@ -51,6 +51,8 @@ class MessageViewController: UIViewController {
                             // update tableView
                             DispatchQueue.main.async {
                                 self.tableView.reloadData()
+                                let indexPath = IndexPath(row: self.messages.count - 1, section: 0)
+                                self.tableView.scrollToRow(at: indexPath, at: .top, animated: true)
                             }
                         }
                     }
@@ -71,6 +73,9 @@ class MessageViewController: UIViewController {
                         print("There were an issue saving data to firestore \(error.localizedDescription)")
                     } else {
                         print("Data was saved successfully")
+                        DispatchQueue.main.async {
+                            self.messageTextfield.text = ""
+                        }
                     }
                 }
          }
